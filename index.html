@@ -7,11 +7,11 @@
     <title>Document</title>
     <style>
         /*
-        Element Selector Syntex
+           1. Element Selector Syntex
 
-        element{
-            Property:value;
-        }
+            element{
+                Property:value;
+            }
         */
 
         div {
@@ -19,11 +19,40 @@
             height: 200px;
             background: red;
         }
+
+        /*
+            2. Id Selector Syntex       
+                element#id{
+                    Property:value;
+                }
+        */
+        span#a1 {
+            display: block;
+            width: 200px;
+            height: 200px;
+            background: green;
+        }
+
+        /*
+            3. Class Selector Syntex       
+                element.class{
+                    Property:value;
+                }
+        */
+        span.b1 {
+            display: block;
+            width: 200px;
+            height: 200px;
+            background: purple;
+        }
     </style>
+
 </head>
 
 <body>
     <div>CSS Element Selectors</div>
+    <span id="a1">CSS Id Selector</span>
+    <span class="b1">CSS Class Selector</span>
 </body>
 
 </html>
